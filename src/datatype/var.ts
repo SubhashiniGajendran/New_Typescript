@@ -1,6 +1,7 @@
-let age:number = 25;
-let userName:string = "John Doe";
-let isLoggedIn:boolean = true;
-let scores:number[] = [90, 85, 88];
-let user: { id: number; name: string } = { id: 1, name: "Alice" };
-console.log(age, userName, isLoggedIn, scores, user);
+var x: number = 10;
+let y: number = 20;
+const z: number = 30;
+x = 15;
+y = 25;
+// z = 35; ❌ Error
+console.log("Q1:", x, y, z);
